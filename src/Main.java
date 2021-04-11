@@ -45,9 +45,9 @@ public class Main {
     public static void stworzpkt() throws IOException {
         double x,y,z;
         x=0.0;y=0.0;z=0.0;
-        int iloscplaszczyzn = wczytanie.nextInt();
+        int plaszczyzny = wczytanie.nextInt();
         zapis.write("x, y, z"+System.lineSeparator());
-        for(int a=0;a<iloscplaszczyzn;a++){
+        for(int a=0;a<plaszczyzny;a++){
 
             for(int b=0;b<4;b++){
                 for(int c=0;c<4;c++){
